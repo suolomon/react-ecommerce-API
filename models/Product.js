@@ -12,7 +12,7 @@ const ProductSchema = new mongoose.Schema(
     size: { type: String },
     price: { type: Number, required: true },
   },
-  { timestamp: true }
+  { timestamps: true }
 );
 
 export default mongoose.model("Product", ProductSchema);
