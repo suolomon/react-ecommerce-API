@@ -1,6 +1,6 @@
 import express from "express";
-import Cart from "../models/Cart";
-import { verifyToken, verifyTokenAndAuthorization } from "./verifyToken";
+import Cart from "../models/Cart.js";
+import { verifyToken, verifyTokenAndAuthorization } from "./verifyToken.js";
 
 const router = express.Router();
 
